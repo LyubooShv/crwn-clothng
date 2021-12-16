@@ -34,7 +34,9 @@ class App extends React.Component{
          
         })
       }
-      else{setCurrentUser( userAuth)}
+      else{setCurrentUser( userAuth);
+   
+      }
     })
   }
 
